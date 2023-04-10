@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mundo</title>
+</head>
+<body>
+    <header>
+        <hi>Ejercicio de HTML</hi>
+        <hr class="exercize">
+        <!-- Day -->
+        <time>Martes 4 de Abril de 2023</time>
+        <!-- logo -->
+        <div class="logo"><a id="logo" href="https://www.elmundo.es/"><img src="logo.jpg" alt="logo"></a></div>
+        <!-- Suscription -->
+        <div class="suscription">
+            <em class="suscription-link">Suscríbase 50% descuento</em><br />
+            <label for:="name" >Nombre y Apellidos: </label><br />
+            <input type="text" name="name" id="name" placeholder="Ej. Lola Flores" /><br />
+            <label for ="email">Email:</label><br />
+            <input type="text" name="email" id="email" placeholder="Escriba su email" /><br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar"/>
+        </div> 
+        <hr class="menuLine">
+        <!-- Main menu -->
+        <nav class="Menu">
+            <p>Menú</p>
+            <ul>
+                <li><a class="menu" href="https://www.elmundo.es/">Portada</a></li>
+                <li><a class="menu" href="https://www.elmundo.es/espana.html">Al día</a></li>
+                <li><a class="menu" href="https://www.elmundo.es/opinion.html">Actualidad</a></li>
+                <li><a class="menu" href="https://www.elmundo.es/deportes.html">Deportes</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <!-- Piece of news -->
+        <section class="news1">
+            <h2>Internacional</h2>
+            <strong class="first-article">Primer Artículo</strong>
+            <article><a class="mainArticle" href="https://www.elmundo.es/internacional/2023/04/04/642c160ffdddffe7598b45a7.html">La Policía registra las oficinas del Partido Popular Europeo en Bruselas</a></article>        
+            <picture><img class="news1" src="internationalPicture.jpg" alt="international"></picture>
+        </section>
+        <section class="news2">
+            <h2>Portada</h2>
+            <h3>Directo guerra Ucrania</h3>
+            <article><p>Guerra Ucrania - Rusia, última hora | El jefe de la Inteligencia exterior rusa dice que Polonia quiere apoderarse de partes del oeste de Ucrania</p>
+                <a class="news2" href="https://www.elmundo.es/internacional/2023/04/04/642baeb0270088002628a7ac-directo.html?intcmp=livefeed&catlivefeed=Directo">
+                <picture><img class="news2" src="war.jpg" alt="war" height="400" width="500"></a><br />
+                <p>Kiev pide a sus ciudadanos que abandonen los territorios ocupados</p>
+                <a class="videoNews" href="https://youtu.be/il49PGufXI8"><video src="https://youtu.be/il49PGufXI8" autoplay poster="posterImageVideo.jpg"></video></a>
+                </picture>
+            </article>
+        </section>
+        <!-- Advertisement -->
+        <aside>
+            <a class="publicity" href="https://www.amazon.es/Colgate-Original-Dientes-Protecci%C3%B3n-Completa/dp/B08FBVCPN1"><img class="advertisement" src="toohtpaste.jpg" height="250" width="250"></a>
+        </aside>
+    </main>
+    <footer>
+        <fieldset>
+            <strong class="footerStrong">Otras webs de Unidad Editorial</strong>
+        </fieldset>
+        <fieldset>
+            <h4>El Mundo</h4>
+            <!-- Main associate webpages -->
+            <pre>Links a sus webs de referencia</pre>
+            <ul id="footer-list1">
+                <li><a class="a-footer1" href="http://quiosco.orbyt.es/?_ga=2.100701697.1631403972.1680608727-736964659.1667929193" alt="orbyt">El mundo en Orbyt</a></li>
+                <li><a class="a-footer1" href="https://www.elmundo.es/economia/vivienda.html" alt="property">Su Vivienda</a></li>
+                <li><a class="a-footer1" href="https://www.elmundo.es/television/programacion-tv/" alt="tv-guide">Guía TV</a></li>
+                <li><a class="a-footer1" href="https://descuentos.elmundo.es/" alt="disounts">Descuentos el Mundo</a></li>
+                <li><a class="a-footer1" href="https://www.elmundo.es/viajes.html" alt="trips">Viajes el Mundo</a></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <!-- Another useful information -->
+            <a class="trust-project" href="https://www.elmundo.es/em/codigo-etico.html" alt="ethic-code"><img src="footer-picture1.jpg"></a>
+            <div class="logo"><a id="logo" href="https://www.elmundo.es/"><img src="logo.jpg" alt="logo"></a></div>
+            <address>Avenida San Luis 25 28033 Madrid</address>
+            <small>Copyright @</small>
+        </fieldset>
+        <!-- final links -->
+        <ul id="footer-list2">
+            <li><a class="a-footer2" href="https://www.elmundo.es/cookies.html" alt="cookies">Política de cookies</a></li>
+            <li><span class="separator">|</span></li>
+            <li><a class="a-footer2" href="https://www.elmundo.es/registro/privacidad.html" alt="privacity">Política de Privacidad</a></li>
+            <li><span class="separator">|</span></li>
+            <li><a class="a-footer2" href="https://www.uesyndication.com/" alt="content">Venta de contenidos</a></li>
+            <li><span class="separator">|</span></li>
+            <li><a class="a-footer2"href="https://www.elmundo.es/registro/avisolegal.html" alt="terms">Términos y Condiciones</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
